@@ -41,7 +41,9 @@ https://forum.huawei.com/enterprise/en/sun2000-4k-tkl-inverter-modbus-tcp-connec
 https://forum.huawei.com/enterprise/en/how-to-change-modbus-tcp-salve-id-from-0-to-1/thread/670233-100027    
     
     SMART
-    *Specifiek: Lokaal de data van een zonnepanelen omvormer uitlezen. Concreet geval met operationele Huawei inverter SUN 2000.
+    *Specifiek: Lokaal de data van een zonnepanelen omvormer uitlezen. Concreet geval met operationele Huawei inverter SUN 2000. De applicatie connecteert met de omvormer over het netwerk.    
+    De applicatie spreekt de API van de omvormer aan om de gegevens uit te lezen. De applicatie slaat de gegevens incrementeel op (geen duplicaten, enkel aanvullen ontbrekende gegevens tot op heden).    
+    De gebruiker kan via de applicatie de gegevens opvragen en visualiseren.
     *Meetbaar: Gebruik van de applicatie moet de relevante gegevens weergeven. Deze kunnen vergeleken worden met de gegevens die beschikbaar zijn via de app van de fabrikant zelf.
     *Acceptabel: Zonnepanelen zijn meer en meer aanwezig in onze maatschappij. De beschikbaarheid van een geautomatiseerde applicatie die ten allen tijde de opbrengst bijhoudt en weergeeft lijkt een meerwaarde te bieden. Vooral wanneer we naast de opbrengst ook het verbruik integreren, zijn er zeer interessante analyses zoals de zelfconsumptie mogelijk die een gebruiker in staat stellen om de opbrengst van zijn zonnepanelen beter te begrijpen.
     *Realistisch: De applicatie lijkt mogelijk mits combinatie van verschillende klassieke technologieën waaronder netwerken, data science, applicatieontwikkeling
